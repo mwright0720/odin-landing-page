@@ -27,6 +27,34 @@ div {
     gap: 16px;
 }
 
+.top-text {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    color: white;
+}
+
+.awesome {
+    font-size: 48px;
+}
+
+.middle-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+}
+
+.testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 a {
     text-decoration: none;
     color: white;
