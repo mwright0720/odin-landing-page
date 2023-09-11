@@ -1,14 +1,13 @@
-div {
-    border: 1px solid red;
-}
+
 
 .page {
     display: flex;
     flex-direction: column;
 }
 
-.header {
-    background-color: #1F2937;
+.header,
+.footer {
+    background-color: #842039;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -30,7 +29,7 @@ div {
 .top-text {
     display: flex;
     justify-content: space-around;
-    background-color: #1F2937;
+    background-color: #842039;
     color: white;
 }
 
@@ -41,6 +40,13 @@ div {
 .middle-text {
     display: flex;
     flex-direction: column;
+    background: #FFFD98
+}
+
+.image-text {
+    color: #23395B;
+    font-weight: 500;
+    font-size: 24px;
 }
 
 .card-container {
@@ -57,6 +63,14 @@ div {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #FF6666;
+    
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+
 }
 
 img {
