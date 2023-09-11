@@ -45,8 +45,12 @@ div {
 
 .card-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     gap: 16px;
+}
+
+.info {
+    max-width: 150px;
 }
 
 .testimonial {
@@ -55,6 +59,11 @@ div {
     align-items: center;
 }
 
+img {
+    width: 150px;
+    height: 150px;
+
+}
 a {
     text-decoration: none;
     color: white;
