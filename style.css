@@ -17,6 +17,7 @@
 
 .logo {
     font-size: 24px;
+    color: #8EB6F1;
     
 }
 
@@ -31,16 +32,26 @@
     justify-content: space-around;
     background-color: #842039;
     color: white;
+    
 }
 
+.image-box {
+    display: flex;
+    flex-direction: column;
+}
 .awesome {
     font-size: 48px;
+    
 }
 
+.less-awesome {
+    color: #DEA6A6;
+}
 .middle-text {
     display: flex;
     flex-direction: column;
-    background: #FFFD98
+    background: #FFFD98;
+    padding: 8px;
 }
 
 .image-text {
@@ -64,6 +75,7 @@
     justify-content: center;
     align-items: center;
     background: #FF6666;
+    padding: 8px;
     
 }
 
@@ -73,6 +85,18 @@
 
 }
 
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #842039;
+    padding: 8px;
+}
+
+.login-text {
+    color: white;
+    font-size: 36px;
+}
 img {
     width: 150px;
     height: 150px;
